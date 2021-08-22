@@ -1,0 +1,6 @@
+1.此版本目录中已经有jre了，无需安装java环境。
+2.安装  aliyun_webdav 服务前先修改 config.ini 中的配置。
+3.在cmd管理员模式下运行 install.py 会自动安装  aliyun_webdav 服务，默认开机自启。
+4.修改配置后直接在cmd管理员模式下运行 install.py 即可，无需卸载服务。
+5.在cmd管理员模式下运行 uninstall.py 即可卸载  aliyun_webdav 服务。
+6.如果想停止或修改自启，可使用"sc"命令或到”服务“中修改。
