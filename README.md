@@ -20,6 +20,9 @@ docker run -d --name=webdav-aliyundriver --restart=always -p 8080:8080  -v /etc/
 # ALIYUNDRIVE_AUTH_PASSWORD 是admin账户的密码，建议修改
 # JAVA_OPTS 可修改最大内存占用，比如 -e JAVA_OPTS="-Xmx512m" 表示最大内存限制为512m
 ```
+## Windows服务运行
+[点击下载Windows服务版安装包](https://github.com/longhuan1999/webdav-aliyundriver/releases)
+将 webdav-aliyundriver 安装成 Windows服务，实现开机自、后台运行。
 
 
 # 参数说明
