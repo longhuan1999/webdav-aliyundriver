@@ -4,3 +4,4 @@
 4.修改配置后直接在cmd管理员模式下运行 install.py 即可，无需卸载服务。
 5.在cmd管理员模式下运行 uninstall.py 即可卸载  aliyun_webdav 服务。
 6.如果想停止或修改自启，可使用"sc"命令或到”服务“中修改。
+7.更新就是把最新的webdavX.X.jar包重命名为webdav.jar并替换目录中的旧文件，然后再运行 install 一遍
